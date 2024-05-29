@@ -1,4 +1,4 @@
-#include "../header/color.hpp"
+#include "../include/color.hpp"
 #include <iostream>
 
 Color::Color()
