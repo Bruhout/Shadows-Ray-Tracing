@@ -1,6 +1,6 @@
-#include "../header/hitRecord.hpp"
-#include "../header/vec3d.hpp"
-#include "../header/hittable.hpp"
+#include "../include/hitRecord.hpp"
+#include "../include/vec3d.hpp"
+#include "../include/hittable.hpp"
 
 HitRecord::HitRecord()
     : tHit(-100000.0f),
