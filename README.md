@@ -25,3 +25,16 @@ Yes, I know its not a good shading model. But this is what we have now.
 
 
 ![NOSHADOW](https://github.com/Bruhout/Shadows-Ray-Tracing/assets/147948392/b5121f0b-e037-4fc1-906f-caecbf58ad41)
+
+
+Now lets add shadows. This is probably the simplest part of the project.
+We fire the rays like normal. When a hit is detected, an extra step takes place. A ray is extended, starting at that point of contact between the original ray and object (contained in the ```hitPoint``` member of the ```HitRecord``` class).
+Lets call this new ray ```lightVec```.
+
+Now we check if ```lightVec``` intersects anything on its path. If an intersection is not detected, means there is a direct path from the light source to the point. Light from the light source will directly hit the ```hitPoint```. Means this pixel is to be coloured in.
+
+On the contrary, if ```lightVec``` detects a hit, it means the path from the light to that point is obstructed. This point will be under a shadow, so we simply color the pixel ```BLACK```.
+
+This is what we have now.
+
+![NAA1](https://github.com/Bruhout/Shadows-Ray-Tracing/assets/147948392/9c4c29a2-2ff3-4484-a5d7-e73176b6ad01)
