@@ -1,7 +1,7 @@
-#include "../header/camera.hpp"
-#include "../header/vec3d.hpp"
-#include "../header/ray.hpp"
-#include "../header/interval.hpp"
+#include "../include/camera.hpp"
+#include "../include/vec3d.hpp"
+#include "../include/ray.hpp"
+#include "../include/interval.hpp"
 
 Camera::Camera()
     : camPos{0 , 6 , 0},
