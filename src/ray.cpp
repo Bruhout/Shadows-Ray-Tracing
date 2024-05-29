@@ -1,5 +1,5 @@
-#include "../header/ray.hpp"
-#include "../header/vec3d.hpp"
+#include "../include/ray.hpp"
+#include "../include/vec3d.hpp"
 
 Ray::Ray(Vec3D a , Vec3D b) : A(a) , B(b) {}
 
