@@ -1,10 +1,10 @@
-#include "../header/hittable_arr.hpp"
-#include "../header/hittable.hpp"
-#include "../header/vec3d.hpp"
-#include "../header/hitRecord.hpp"
-#include "../header/ray.hpp"
-#include "../header/interval.hpp"
-#include "../header/color.hpp"
+#include "../include/hittable_arr.hpp"
+#include "../include/hittable.hpp"
+#include "../include/vec3d.hpp"
+#include "../include/hitRecord.hpp"
+#include "../include/ray.hpp"
+#include "../include/interval.hpp"
+#include "../include/color.hpp"
 
 HittableArray::HittableArray()
     : objArray{}
