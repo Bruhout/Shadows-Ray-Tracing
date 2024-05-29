@@ -1,8 +1,8 @@
-#include "../header/vec3d.hpp"
-#include "../header/ray.hpp"
-#include "../header/sphere.hpp"
-#include "../header/interval.hpp"
-#include "../header/hitRecord.hpp"
+#include "../include/vec3d.hpp"
+#include "../include/ray.hpp"
+#include "../include/sphere.hpp"
+#include "../include/interval.hpp"
+#include "../include/hitRecord.hpp"
 
 
 Sphere::Sphere()
