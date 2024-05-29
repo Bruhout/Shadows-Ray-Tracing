@@ -1,4 +1,4 @@
-#include "../header/interval.hpp"
+#include "../include/interval.hpp"
 #include <random>
 
 Interval::Interval()
