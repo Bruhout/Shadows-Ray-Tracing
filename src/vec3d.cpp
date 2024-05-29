@@ -1,5 +1,5 @@
-#include "../header/vec3d.hpp"
-#include "../header/interval.hpp"
+#include "../include/vec3d.hpp"
+#include "../include/interval.hpp"
 #include <math.h>
 #include <iostream>
 
