@@ -1,15 +1,15 @@
 #include <iostream>
 #include <memory>
 
-#include "../header/camera.hpp"
-#include "../header/color.hpp"
-#include "../header/hitRecord.hpp"
-#include "../header/hittable_arr.hpp"
-#include "../header/hittable.hpp"
-#include "../header/interval.hpp"
-#include "../header/ray.hpp"
-#include "../header/sphere.hpp"
-#include "../header/vec3d.hpp"
+#include "../include/camera.hpp"
+#include "../include/color.hpp"
+#include "../include/hitRecord.hpp"
+#include "../include/hittable_arr.hpp"
+#include "../include/hittable.hpp"
+#include "../include/interval.hpp"
+#include "../include/ray.hpp"
+#include "../include/sphere.hpp"
+#include "../include/vec3d.hpp"
 
 #define PIXEL_HEIGHT 1080
 #define PIXEL_WIDTH 1920
