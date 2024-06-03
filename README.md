@@ -38,3 +38,8 @@ On the contrary, if ```lightVec``` detects a hit, it means the path from the lig
 This is what we have now.
 
 ![NAA1](https://github.com/Bruhout/Shadows-Ray-Tracing/assets/147948392/9c4c29a2-2ff3-4484-a5d7-e73176b6ad01)
+
+By the way I tried to add two light sources but it got messed up, so Ill be trying to fix that and I encourage you to try do that as well !
+
+![image](https://github.com/Bruhout/Shadows-Ray-Tracing/assets/147948392/73c1fbd0-c7b1-4f87-8288-f1c60b39c129)
+
