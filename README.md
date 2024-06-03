@@ -1,5 +1,5 @@
 # Shadows-Ray-Tracing
-Explaining a way to create sharp shadows in a ray tracing renderer
+## Explaining a way to create sharp shadows in a ray tracing renderer
 
 This is a ray tracer made with inspiration from the simple ray tracing application developed in the book "Ray Tracing In One Weekend" by Peter Shirley.
 A lot of the functionality like different material is missing here as the goal is just to show how shadows can be rendered.
