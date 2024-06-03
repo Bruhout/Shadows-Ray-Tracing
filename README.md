@@ -10,7 +10,7 @@ The basic algorithm is simple. A scene is defined with the objects that are pres
 
 If the ray hits an object, we know that the camera will see that object through the current pixel (the one which the ray was fired through). So this pixel can be coloured in. Any other pixels are simply giving a gray color, and hit pixels are given a purple color (just because I like purple). This is what the render of the scene looks like right now. We just have 2 differently sized spheres in the scene.
 
-The scene looks something like this, as of now.
+> The scene looks something like this, as of now.
 
 
 ![NSAA](https://github.com/Bruhout/Shadows-Ray-Tracing/assets/147948392/bf77168d-aca7-4a65-b53a-35520714b064)
