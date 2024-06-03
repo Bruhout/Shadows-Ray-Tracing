@@ -19,6 +19,8 @@ If the ray hits an object, we know that the camera will see that object through 
 Yes, it lacks any kind of shading. Lets add a light source.
 The light source is a point bulb like thingy at the coordinates (1000 , 1000 , 1000). Its placed very far from the scene because the model of shading we will be using is terrible and looks very unnatural at small distances, perhaps because we lack any kind of ambient lighting.
 
+> From a light source placed very far away, the light rays arrive almost parallel to each other. This means we get the best illuminated sphere when the light source is placed really, really far away.
+
 Now when the ray hits an object, we will retreive some relevant data, stored in an object of the ```HitRecord``` class. One of these data members is the surface normal, or the arrow pointing straight up from the surface of the object.
 Based on this, we will shade the sphere. If that point is facing the light source, its coloured brightly, the further away it faces, the darker the face gets.
 Yes, I know its not a good shading model. But this is what we have now.
